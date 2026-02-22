@@ -8,6 +8,8 @@ form.addEventListener("submit", (e) => {
   e.preventDefault();
 
   checkInputs();
+
+ 
 });
 
 function checkInputs() {
@@ -61,12 +63,10 @@ function checkInputs() {
 
   if(formIsValid){
     console.log("Formulário enviado com Sucesso!");
+   
   }
 
-  usernameValue.value = "";
-  emailValue.value = "";
-  passwordValue.value = "";
-  passwordConfirmationValue.value = "";
+ 
 }
 
 function setErrorFor(input, message) {
